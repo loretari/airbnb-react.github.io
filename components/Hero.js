@@ -1,9 +1,12 @@
 import React from 'react';
 
-export default function Navbar() {
+export default function Hero() {
     return (
-        <nav>
-            <img src = '../images/airbnb-logo.png' />
-        </nav>
+        <section className= 'hero'>
+            <img className = 'hero--photo' src= '../images/photo-grid.png'/>
+            <h1 className= 'hero--header'>Online Experience</h1>
+            <p className= 'hero--text'> Join unique interactive activities led by one-of-a-kind hosts-all
+                without leaving</p>
+        </section>
     )
 }
